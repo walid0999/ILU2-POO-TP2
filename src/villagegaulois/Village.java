@@ -14,7 +14,7 @@ public class Village {
 	public Village(String nom, int nbVillageoisMaximum, int nbEtal) {
 		this.nom = nom;
 		villageois = new Gaulois[nbVillageoisMaximum];
-		marche = new Marche(nbEtal);
+		this.marche = new Marche(nbEtal);
 	}
 
 	public String getNom() {
