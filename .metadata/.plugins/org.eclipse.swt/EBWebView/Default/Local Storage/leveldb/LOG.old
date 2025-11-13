@@ -1,2 +1,3 @@
-2025/11/04-10:35:40.005 14f4 Creating DB Z:\ILU2\POO\workspace\PUSH\ILU2-POO-TP2\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb since it was missing.
-2025/11/04-10:35:40.157 14f4 Reusing MANIFEST Z:\ILU2\POO\workspace\PUSH\ILU2-POO-TP2\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/11/12-12:47:13.513 4614 Reusing MANIFEST C:\Users\Wakid\Desktop\workspace_POO\ILU2-POO-TP2\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/11/12-12:47:13.537 4614 Recovering log #3
+2025/11/12-12:47:13.543 4614 Reusing old log C:\Users\Wakid\Desktop\workspace_POO\ILU2-POO-TP2\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/000003.log 

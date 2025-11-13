@@ -1,5 +1,6 @@
 package controleur;
 
+import personnages.Gaulois;
 import villagegaulois.Village;
 
 public class ControlAcheterProduit {
@@ -16,4 +17,13 @@ public class ControlAcheterProduit {
 	}
 
 	//TODO a completer
+	public String[] getInfosMarche() {
+		return village.donnerEtatMarche();
+	}
+	public Gaulois trouverHabitant(String nomGaulois) {
+		return village.trouverHabitant(nomGaulois);
+	}
+	public Gaulois[] rechercherVendeursProduit(String produit) {
+		return village.rechercherVendeursProduit(produit);
+	}
 }
