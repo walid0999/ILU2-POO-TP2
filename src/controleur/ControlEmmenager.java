@@ -26,5 +26,4 @@ public class ControlEmmenager {
 		Gaulois gaulois = new Gaulois(nom, force);
 		village.ajouterHabitant(gaulois);
 	}
-
 }
