@@ -15,8 +15,7 @@ public class ControlAcheterProduit {
 		this.controlVerifierIdentite = controlVerifierIdentite;
 		this.controlTrouverEtalVendeur = controlTrouverEtalVendeur;
 	}
-
-	//TODO a completer
+	
 	public String[] getInfosMarche() {
 		return village.donnerEtatMarche();
 	}

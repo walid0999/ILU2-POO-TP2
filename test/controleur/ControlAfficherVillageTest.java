@@ -14,7 +14,12 @@ class ControlAfficherVillageTest {
 	
 	@BeforeEach
 	public void initControlAfficherVillageTest() {
-		village_test = new Village("Village test", 20, 15);
+		this.village_test = new Village("Village test", 20, 15);
+		Chef chef_test= new Chef("Obelix", 15, village_test);
+		this.village_test.setChef(chef_test);
+		this.controlAfficherVillageTest = new ControlAfficherVillage(village_test);
+		
+	
 	}
 
 	@Test
@@ -25,13 +30,8 @@ class ControlAfficherVillageTest {
 
 	@Test
 	void testDonnerNomsVillageois() {
-		for(int i=0; i<controlAfficherVillageTest.donnerNomsVillageois().length; i++) {
-			assertNull(controlAfficherVillageTest.donnerNomsVillageois()[i]);
-		}
-		
-		Chef chef_test= new Chef("Obelix", 15, village_test);
-		village_test.setChef(chef_test);
-		assertEquals(controlAfficherVillageTest.donnerNomsVillageois()[0], "Asterix");
+		assertEquals(controlAfficherVillageTest.donnerNomsVillageois()[0], "Obelix");
+		assertEquals(controlAfficherVillageTest.donnerNomsVillageois().length, 1);
 	}
 
 	@Test
@@ -41,7 +41,7 @@ class ControlAfficherVillageTest {
 
 	@Test
 	void testDonnerNbEtals() {
-		assertEquals(controlAfficherVillageTest.donnerNbEtals(), 15);
+		assertEquals(controlAfficherVillageTest.donnerNbEtals(), 15); //Voir constructeur
 	}
 
 }
